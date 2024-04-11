@@ -13,8 +13,3 @@ def twoSum(nums: List[int], target: int) -> List[int]:
                 continue
             
     return temp
-
-tmp = eval(input())
-t = int(input())
-ret = twoSum(tmp,t)
-print(ret)
